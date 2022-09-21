@@ -29,6 +29,7 @@ public class FibonacciSeries
 					int arr[]=new int[num];
 					arr[0]=num1;
 					arr[1]=num2;
+					
 					for(int i=2;i<arr.length;i++)
 					{
 						int num3=num1+num2;
@@ -47,17 +48,8 @@ public class FibonacciSeries
 				{
 					System.out.println("Your input is not valid");
 				}
-				
-				
-				
+			
 			}
-			
-			
-//	    }
-		
-		
-		
-		
 		
 	}
 
